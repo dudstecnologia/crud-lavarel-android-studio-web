@@ -32,7 +32,7 @@ class ClienteController extends Controller
 
     public function adicionar(Request $request) {
 
-        //dd($request->all());
+        // dd($request->all());
 
         try {
             $cliente = new Cliente;
